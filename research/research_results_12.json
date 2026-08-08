@@ -1,0 +1,1450 @@
+{
+  "two_sum__openai__basic": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 104,
+      "output_tokens": 185,
+      "total_tokens": 289,
+      "elapsed_s": 2.648,
+      "tokens_per_sec": 69.9,
+      "cost": 0.0009105,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 104,
+      "output_tokens": 220,
+      "total_tokens": 324,
+      "elapsed_s": 2.483,
+      "tokens_per_sec": 88.6,
+      "cost": 0.001068,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 104,
+      "output_tokens": 206,
+      "total_tokens": 310,
+      "elapsed_s": 1.669,
+      "tokens_per_sec": 123.4,
+      "cost": 0.001005,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 104,
+      "output_tokens": 185,
+      "total_tokens": 289,
+      "elapsed_s": 1.9,
+      "tokens_per_sec": 97.3,
+      "cost": 0.0009105,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 104,
+      "output_tokens": 182,
+      "total_tokens": 286,
+      "elapsed_s": 3.64,
+      "tokens_per_sec": 50.0,
+      "cost": 0.000897,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "two_sum__openai__efficiency": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 137,
+      "output_tokens": 310,
+      "total_tokens": 447,
+      "elapsed_s": 2.889,
+      "tokens_per_sec": 107.3,
+      "cost": 0.00149775,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 137,
+      "output_tokens": 276,
+      "total_tokens": 413,
+      "elapsed_s": 2.463,
+      "tokens_per_sec": 112.1,
+      "cost": 0.00134475,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 137,
+      "output_tokens": 287,
+      "total_tokens": 424,
+      "elapsed_s": 2.533,
+      "tokens_per_sec": 113.3,
+      "cost": 0.00139425,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 137,
+      "output_tokens": 303,
+      "total_tokens": 440,
+      "elapsed_s": 3.012,
+      "tokens_per_sec": 100.6,
+      "cost": 0.00146625,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 137,
+      "output_tokens": 311,
+      "total_tokens": 448,
+      "elapsed_s": 2.97,
+      "tokens_per_sec": 104.7,
+      "cost": 0.00150225,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "two_sum__openai__two_step": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 336,
+      "output_tokens": 384,
+      "total_tokens": 720,
+      "elapsed_s": 3.537,
+      "tokens_per_sec": 108.6,
+      "cost": 0.00198,
+      "step1_total_tok": 284,
+      "step2_total_tok": 436,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 326,
+      "output_tokens": 376,
+      "total_tokens": 702,
+      "elapsed_s": 4.909,
+      "tokens_per_sec": 76.6,
+      "cost": 0.0019365,
+      "step1_total_tok": 274,
+      "step2_total_tok": 428,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 340,
+      "output_tokens": 380,
+      "total_tokens": 720,
+      "elapsed_s": 4.142,
+      "tokens_per_sec": 91.7,
+      "cost": 0.001965,
+      "step1_total_tok": 288,
+      "step2_total_tok": 432,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 326,
+      "output_tokens": 371,
+      "total_tokens": 697,
+      "elapsed_s": 12.584,
+      "tokens_per_sec": 29.5,
+      "cost": 0.001914,
+      "step1_total_tok": 274,
+      "step2_total_tok": 423,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 343,
+      "output_tokens": 425,
+      "total_tokens": 768,
+      "elapsed_s": 3.749,
+      "tokens_per_sec": 113.4,
+      "cost": 0.00216975,
+      "step1_total_tok": 291,
+      "step2_total_tok": 477,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "two_sum__anthropic__basic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 106,
+      "output_tokens": 556,
+      "total_tokens": 662,
+      "elapsed_s": 4.094,
+      "tokens_per_sec": 135.8,
+      "cost": 0.002886,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 106,
+      "output_tokens": 556,
+      "total_tokens": 662,
+      "elapsed_s": 4.065,
+      "tokens_per_sec": 136.8,
+      "cost": 0.002886,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 106,
+      "output_tokens": 503,
+      "total_tokens": 609,
+      "elapsed_s": 3.811,
+      "tokens_per_sec": 132.0,
+      "cost": 0.002621,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 106,
+      "output_tokens": 505,
+      "total_tokens": 611,
+      "elapsed_s": 3.933,
+      "tokens_per_sec": 128.4,
+      "cost": 0.002631,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 106,
+      "output_tokens": 503,
+      "total_tokens": 609,
+      "elapsed_s": 5.926,
+      "tokens_per_sec": 84.9,
+      "cost": 0.002621,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "two_sum__anthropic__efficiency": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 143,
+      "output_tokens": 682,
+      "total_tokens": 825,
+      "elapsed_s": 5.806,
+      "tokens_per_sec": 117.5,
+      "cost": 0.003553,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 143,
+      "output_tokens": 700,
+      "total_tokens": 843,
+      "elapsed_s": 5.555,
+      "tokens_per_sec": 126.0,
+      "cost": 0.003643,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 143,
+      "output_tokens": 622,
+      "total_tokens": 765,
+      "elapsed_s": 5.404,
+      "tokens_per_sec": 115.1,
+      "cost": 0.003253,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 143,
+      "output_tokens": 695,
+      "total_tokens": 838,
+      "elapsed_s": 6.143,
+      "tokens_per_sec": 113.1,
+      "cost": 0.003618,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 143,
+      "output_tokens": 847,
+      "total_tokens": 990,
+      "elapsed_s": 7.1,
+      "tokens_per_sec": 119.3,
+      "cost": 0.004378,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "two_sum__anthropic__two_step": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 663,
+      "output_tokens": 863,
+      "total_tokens": 1526,
+      "elapsed_s": 7.998,
+      "tokens_per_sec": 107.9,
+      "cost": 0.004978,
+      "step1_total_tok": 609,
+      "step2_total_tok": 917,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 665,
+      "output_tokens": 881,
+      "total_tokens": 1546,
+      "elapsed_s": 7.415,
+      "tokens_per_sec": 118.8,
+      "cost": 0.00507,
+      "step1_total_tok": 611,
+      "step2_total_tok": 935,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 663,
+      "output_tokens": 866,
+      "total_tokens": 1529,
+      "elapsed_s": 7.659,
+      "tokens_per_sec": 113.1,
+      "cost": 0.004993,
+      "step1_total_tok": 609,
+      "step2_total_tok": 920,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 663,
+      "output_tokens": 882,
+      "total_tokens": 1545,
+      "elapsed_s": 7.555,
+      "tokens_per_sec": 116.7,
+      "cost": 0.005073,
+      "step1_total_tok": 609,
+      "step2_total_tok": 936,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 663,
+      "output_tokens": 844,
+      "total_tokens": 1507,
+      "elapsed_s": 7.357,
+      "tokens_per_sec": 114.7,
+      "cost": 0.004883,
+      "step1_total_tok": 609,
+      "step2_total_tok": 898,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "max_subarray__openai__basic": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 87,
+      "output_tokens": 242,
+      "total_tokens": 329,
+      "elapsed_s": 2.094,
+      "tokens_per_sec": 115.6,
+      "cost": 0.00115425,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 87,
+      "output_tokens": 224,
+      "total_tokens": 311,
+      "elapsed_s": 2.229,
+      "tokens_per_sec": 100.5,
+      "cost": 0.00107325,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 87,
+      "output_tokens": 240,
+      "total_tokens": 327,
+      "elapsed_s": 4.226,
+      "tokens_per_sec": 56.8,
+      "cost": 0.00114525,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 87,
+      "output_tokens": 239,
+      "total_tokens": 326,
+      "elapsed_s": 1.984,
+      "tokens_per_sec": 120.4,
+      "cost": 0.00114075,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 87,
+      "output_tokens": 258,
+      "total_tokens": 345,
+      "elapsed_s": 2.302,
+      "tokens_per_sec": 112.1,
+      "cost": 0.00122625,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "max_subarray__openai__efficiency": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 121,
+      "output_tokens": 312,
+      "total_tokens": 433,
+      "elapsed_s": 3.01,
+      "tokens_per_sec": 103.7,
+      "cost": 0.00149475,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 121,
+      "output_tokens": 386,
+      "total_tokens": 507,
+      "elapsed_s": 3.189,
+      "tokens_per_sec": 121.1,
+      "cost": 0.00182775,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 121,
+      "output_tokens": 324,
+      "total_tokens": 445,
+      "elapsed_s": 5.147,
+      "tokens_per_sec": 63.0,
+      "cost": 0.00154875,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 121,
+      "output_tokens": 311,
+      "total_tokens": 432,
+      "elapsed_s": 2.419,
+      "tokens_per_sec": 128.6,
+      "cost": 0.00149025,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 121,
+      "output_tokens": 327,
+      "total_tokens": 448,
+      "elapsed_s": 2.692,
+      "tokens_per_sec": 121.5,
+      "cost": 0.00156225,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "max_subarray__openai__two_step": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 377,
+      "output_tokens": 445,
+      "total_tokens": 822,
+      "elapsed_s": 4.273,
+      "tokens_per_sec": 104.1,
+      "cost": 0.00228525,
+      "step1_total_tok": 325,
+      "step2_total_tok": 497,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 347,
+      "output_tokens": 395,
+      "total_tokens": 742,
+      "elapsed_s": 4.168,
+      "tokens_per_sec": 94.8,
+      "cost": 0.00203775,
+      "step1_total_tok": 295,
+      "step2_total_tok": 447,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 395,
+      "output_tokens": 476,
+      "total_tokens": 871,
+      "elapsed_s": 3.922,
+      "tokens_per_sec": 121.4,
+      "cost": 0.00243825,
+      "step1_total_tok": 344,
+      "step2_total_tok": 527,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 361,
+      "output_tokens": 419,
+      "total_tokens": 780,
+      "elapsed_s": 10.91,
+      "tokens_per_sec": 38.4,
+      "cost": 0.00215625,
+      "step1_total_tok": 309,
+      "step2_total_tok": 471,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 364,
+      "output_tokens": 442,
+      "total_tokens": 806,
+      "elapsed_s": 5.265,
+      "tokens_per_sec": 84.0,
+      "cost": 0.002262,
+      "step1_total_tok": 312,
+      "step2_total_tok": 494,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "max_subarray__anthropic__basic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 90,
+      "output_tokens": 918,
+      "total_tokens": 1008,
+      "elapsed_s": 6.227,
+      "tokens_per_sec": 147.4,
+      "cost": 0.00468,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 90,
+      "output_tokens": 834,
+      "total_tokens": 924,
+      "elapsed_s": 5.136,
+      "tokens_per_sec": 162.4,
+      "cost": 0.00426,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 90,
+      "output_tokens": 839,
+      "total_tokens": 929,
+      "elapsed_s": 5.025,
+      "tokens_per_sec": 167.0,
+      "cost": 0.004285,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 90,
+      "output_tokens": 834,
+      "total_tokens": 924,
+      "elapsed_s": 4.775,
+      "tokens_per_sec": 174.7,
+      "cost": 0.00426,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 90,
+      "output_tokens": 919,
+      "total_tokens": 1009,
+      "elapsed_s": 5.354,
+      "tokens_per_sec": 171.7,
+      "cost": 0.004685,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "max_subarray__anthropic__efficiency": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 127,
+      "output_tokens": 1086,
+      "total_tokens": 1213,
+      "elapsed_s": 6.433,
+      "tokens_per_sec": 168.8,
+      "cost": 0.005557,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 127,
+      "output_tokens": 1078,
+      "total_tokens": 1205,
+      "elapsed_s": 6.951,
+      "tokens_per_sec": 155.1,
+      "cost": 0.005517,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 127,
+      "output_tokens": 1069,
+      "total_tokens": 1196,
+      "elapsed_s": 6.737,
+      "tokens_per_sec": 158.7,
+      "cost": 0.005472,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 127,
+      "output_tokens": 770,
+      "total_tokens": 897,
+      "elapsed_s": 5.292,
+      "tokens_per_sec": 145.5,
+      "cost": 0.003977,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 127,
+      "output_tokens": 1078,
+      "total_tokens": 1205,
+      "elapsed_s": 6.804,
+      "tokens_per_sec": 158.4,
+      "cost": 0.005517,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "max_subarray__anthropic__two_step": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 983,
+      "output_tokens": 1162,
+      "total_tokens": 2145,
+      "elapsed_s": 8.3,
+      "tokens_per_sec": 140.0,
+      "cost": 0.0067929999999999996,
+      "step1_total_tok": 929,
+      "step2_total_tok": 1216,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1072,
+      "output_tokens": 1311,
+      "total_tokens": 2383,
+      "elapsed_s": 9.141,
+      "tokens_per_sec": 143.4,
+      "cost": 0.007627,
+      "step1_total_tok": 1018,
+      "step2_total_tok": 1365,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1064,
+      "output_tokens": 1301,
+      "total_tokens": 2365,
+      "elapsed_s": 9.394,
+      "tokens_per_sec": 138.5,
+      "cost": 0.007568999999999999,
+      "step1_total_tok": 1010,
+      "step2_total_tok": 1355,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1064,
+      "output_tokens": 1446,
+      "total_tokens": 2510,
+      "elapsed_s": 9.98,
+      "tokens_per_sec": 144.9,
+      "cost": 0.008294,
+      "step1_total_tok": 1010,
+      "step2_total_tok": 1500,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1116,
+      "output_tokens": 1479,
+      "total_tokens": 2595,
+      "elapsed_s": 9.504,
+      "tokens_per_sec": 155.6,
+      "cost": 0.008511000000000001,
+      "step1_total_tok": 1062,
+      "step2_total_tok": 1533,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "sales_aggregation__openai__basic": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 354,
+      "output_tokens": 452,
+      "total_tokens": 806,
+      "elapsed_s": 3.103,
+      "tokens_per_sec": 145.7,
+      "cost": 0.0022995,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 354,
+      "output_tokens": 459,
+      "total_tokens": 813,
+      "elapsed_s": 3.271,
+      "tokens_per_sec": 140.3,
+      "cost": 0.002331,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 354,
+      "output_tokens": 459,
+      "total_tokens": 813,
+      "elapsed_s": 4.672,
+      "tokens_per_sec": 98.3,
+      "cost": 0.002331,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 354,
+      "output_tokens": 453,
+      "total_tokens": 807,
+      "elapsed_s": 3.759,
+      "tokens_per_sec": 120.5,
+      "cost": 0.002304,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 354,
+      "output_tokens": 481,
+      "total_tokens": 835,
+      "elapsed_s": 3.041,
+      "tokens_per_sec": 158.2,
+      "cost": 0.00243,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "sales_aggregation__openai__efficiency": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 387,
+      "output_tokens": 622,
+      "total_tokens": 1009,
+      "elapsed_s": 4.415,
+      "tokens_per_sec": 140.9,
+      "cost": 0.00308925,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 387,
+      "output_tokens": 579,
+      "total_tokens": 966,
+      "elapsed_s": 3.694,
+      "tokens_per_sec": 156.8,
+      "cost": 0.00289575,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 387,
+      "output_tokens": 616,
+      "total_tokens": 1003,
+      "elapsed_s": 4.069,
+      "tokens_per_sec": 151.4,
+      "cost": 0.00306225,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 387,
+      "output_tokens": 596,
+      "total_tokens": 983,
+      "elapsed_s": 3.832,
+      "tokens_per_sec": 155.5,
+      "cost": 0.00297225,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 387,
+      "output_tokens": 582,
+      "total_tokens": 969,
+      "elapsed_s": 3.679,
+      "tokens_per_sec": 158.2,
+      "cost": 0.00290925,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "sales_aggregation__openai__two_step": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 861,
+      "output_tokens": 833,
+      "total_tokens": 1694,
+      "elapsed_s": 5.635,
+      "tokens_per_sec": 147.8,
+      "cost": 0.004394250000000001,
+      "step1_total_tok": 809,
+      "step2_total_tok": 885,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 865,
+      "output_tokens": 813,
+      "total_tokens": 1678,
+      "elapsed_s": 5.645,
+      "tokens_per_sec": 144.0,
+      "cost": 0.00430725,
+      "step1_total_tok": 813,
+      "step2_total_tok": 865,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 865,
+      "output_tokens": 831,
+      "total_tokens": 1696,
+      "elapsed_s": 5.527,
+      "tokens_per_sec": 150.4,
+      "cost": 0.00438825,
+      "step1_total_tok": 813,
+      "step2_total_tok": 883,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 859,
+      "output_tokens": 792,
+      "total_tokens": 1651,
+      "elapsed_s": 5.45,
+      "tokens_per_sec": 145.3,
+      "cost": 0.00420825,
+      "step1_total_tok": 807,
+      "step2_total_tok": 844,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 864,
+      "output_tokens": 870,
+      "total_tokens": 1734,
+      "elapsed_s": 5.94,
+      "tokens_per_sec": 146.5,
+      "cost": 0.004563,
+      "step1_total_tok": 812,
+      "step2_total_tok": 922,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "sales_aggregation__anthropic__basic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 394,
+      "output_tokens": 986,
+      "total_tokens": 1380,
+      "elapsed_s": 5.923,
+      "tokens_per_sec": 166.5,
+      "cost": 0.005324,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 394,
+      "output_tokens": 992,
+      "total_tokens": 1386,
+      "elapsed_s": 7.208,
+      "tokens_per_sec": 137.6,
+      "cost": 0.005354,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 394,
+      "output_tokens": 962,
+      "total_tokens": 1356,
+      "elapsed_s": 5.319,
+      "tokens_per_sec": 180.9,
+      "cost": 0.005204,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 394,
+      "output_tokens": 962,
+      "total_tokens": 1356,
+      "elapsed_s": 5.575,
+      "tokens_per_sec": 172.5,
+      "cost": 0.005204,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 394,
+      "output_tokens": 986,
+      "total_tokens": 1380,
+      "elapsed_s": 5.982,
+      "tokens_per_sec": 164.8,
+      "cost": 0.005324,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "sales_aggregation__anthropic__efficiency": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 431,
+      "output_tokens": 1190,
+      "total_tokens": 1621,
+      "elapsed_s": 9.63,
+      "tokens_per_sec": 123.6,
+      "cost": 0.006381,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 431,
+      "output_tokens": 1145,
+      "total_tokens": 1576,
+      "elapsed_s": 7.851,
+      "tokens_per_sec": 145.8,
+      "cost": 0.006156,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 431,
+      "output_tokens": 1205,
+      "total_tokens": 1636,
+      "elapsed_s": 8.604,
+      "tokens_per_sec": 140.0,
+      "cost": 0.006456,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 431,
+      "output_tokens": 1169,
+      "total_tokens": 1600,
+      "elapsed_s": 7.984,
+      "tokens_per_sec": 146.4,
+      "cost": 0.006276,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 431,
+      "output_tokens": 1169,
+      "total_tokens": 1600,
+      "elapsed_s": 8.279,
+      "tokens_per_sec": 141.2,
+      "cost": 0.006276,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "sales_aggregation__anthropic__two_step": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1411,
+      "output_tokens": 1886,
+      "total_tokens": 3297,
+      "elapsed_s": 10.594,
+      "tokens_per_sec": 178.0,
+      "cost": 0.010841,
+      "step1_total_tok": 1357,
+      "step2_total_tok": 1940,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1335,
+      "output_tokens": 1806,
+      "total_tokens": 3141,
+      "elapsed_s": 11.425,
+      "tokens_per_sec": 158.1,
+      "cost": 0.010365,
+      "step1_total_tok": 1281,
+      "step2_total_tok": 1860,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1427,
+      "output_tokens": 1850,
+      "total_tokens": 3277,
+      "elapsed_s": 10.481,
+      "tokens_per_sec": 176.5,
+      "cost": 0.010677,
+      "step1_total_tok": 1373,
+      "step2_total_tok": 1904,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1410,
+      "output_tokens": 1897,
+      "total_tokens": 3307,
+      "elapsed_s": 16.642,
+      "tokens_per_sec": 114.0,
+      "cost": 0.010895,
+      "step1_total_tok": 1356,
+      "step2_total_tok": 1951,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1434,
+      "output_tokens": 1899,
+      "total_tokens": 3333,
+      "elapsed_s": 11.454,
+      "tokens_per_sec": 165.8,
+      "cost": 0.010929,
+      "step1_total_tok": 1380,
+      "step2_total_tok": 1953,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "data_cleaning__openai__basic": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 348,
+      "output_tokens": 449,
+      "total_tokens": 797,
+      "elapsed_s": 2.945,
+      "tokens_per_sec": 152.4,
+      "cost": 0.0022815,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 348,
+      "output_tokens": 447,
+      "total_tokens": 795,
+      "elapsed_s": 2.874,
+      "tokens_per_sec": 155.5,
+      "cost": 0.0022725,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 348,
+      "output_tokens": 452,
+      "total_tokens": 800,
+      "elapsed_s": 4.428,
+      "tokens_per_sec": 102.1,
+      "cost": 0.002295,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 348,
+      "output_tokens": 448,
+      "total_tokens": 796,
+      "elapsed_s": 2.909,
+      "tokens_per_sec": 154.0,
+      "cost": 0.002277,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 348,
+      "output_tokens": 441,
+      "total_tokens": 789,
+      "elapsed_s": 3.357,
+      "tokens_per_sec": 131.4,
+      "cost": 0.0022455,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "data_cleaning__openai__efficiency": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 381,
+      "output_tokens": 631,
+      "total_tokens": 1012,
+      "elapsed_s": 4.397,
+      "tokens_per_sec": 143.5,
+      "cost": 0.00312525,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 381,
+      "output_tokens": 612,
+      "total_tokens": 993,
+      "elapsed_s": 7.79,
+      "tokens_per_sec": 78.6,
+      "cost": 0.00303975,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 381,
+      "output_tokens": 656,
+      "total_tokens": 1037,
+      "elapsed_s": 3.867,
+      "tokens_per_sec": 169.6,
+      "cost": 0.00323775,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 381,
+      "output_tokens": 613,
+      "total_tokens": 994,
+      "elapsed_s": 5.512,
+      "tokens_per_sec": 111.2,
+      "cost": 0.00304425,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 381,
+      "output_tokens": 607,
+      "total_tokens": 988,
+      "elapsed_s": 4.193,
+      "tokens_per_sec": 144.8,
+      "cost": 0.00301725,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "data_cleaning__openai__two_step": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 853,
+      "output_tokens": 702,
+      "total_tokens": 1555,
+      "elapsed_s": 6.134,
+      "tokens_per_sec": 114.4,
+      "cost": 0.00379875,
+      "step1_total_tok": 802,
+      "step2_total_tok": 753,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 858,
+      "output_tokens": 790,
+      "total_tokens": 1648,
+      "elapsed_s": 5.643,
+      "tokens_per_sec": 140.0,
+      "cost": 0.0041985,
+      "step1_total_tok": 807,
+      "step2_total_tok": 841,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 848,
+      "output_tokens": 732,
+      "total_tokens": 1580,
+      "elapsed_s": 5.435,
+      "tokens_per_sec": 134.7,
+      "cost": 0.00393,
+      "step1_total_tok": 797,
+      "step2_total_tok": 783,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 839,
+      "output_tokens": 792,
+      "total_tokens": 1631,
+      "elapsed_s": 5.791,
+      "tokens_per_sec": 136.8,
+      "cost": 0.00419325,
+      "step1_total_tok": 788,
+      "step2_total_tok": 843,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 828,
+      "output_tokens": 755,
+      "total_tokens": 1583,
+      "elapsed_s": 5.236,
+      "tokens_per_sec": 144.2,
+      "cost": 0.0040185,
+      "step1_total_tok": 776,
+      "step2_total_tok": 807,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "data_cleaning__anthropic__basic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 372,
+      "output_tokens": 933,
+      "total_tokens": 1305,
+      "elapsed_s": 5.793,
+      "tokens_per_sec": 161.0,
+      "cost": 0.005037,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 372,
+      "output_tokens": 857,
+      "total_tokens": 1229,
+      "elapsed_s": 10.079,
+      "tokens_per_sec": 85.0,
+      "cost": 0.004657,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 372,
+      "output_tokens": 884,
+      "total_tokens": 1256,
+      "elapsed_s": 5.498,
+      "tokens_per_sec": 160.8,
+      "cost": 0.004792,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 372,
+      "output_tokens": 905,
+      "total_tokens": 1277,
+      "elapsed_s": 5.796,
+      "tokens_per_sec": 156.1,
+      "cost": 0.004897,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 372,
+      "output_tokens": 915,
+      "total_tokens": 1287,
+      "elapsed_s": 5.578,
+      "tokens_per_sec": 164.0,
+      "cost": 0.004947,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "data_cleaning__anthropic__efficiency": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 409,
+      "output_tokens": 1061,
+      "total_tokens": 1470,
+      "elapsed_s": 7.972,
+      "tokens_per_sec": 133.1,
+      "cost": 0.005714,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 409,
+      "output_tokens": 1063,
+      "total_tokens": 1472,
+      "elapsed_s": 8.057,
+      "tokens_per_sec": 131.9,
+      "cost": 0.005724,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 409,
+      "output_tokens": 1040,
+      "total_tokens": 1449,
+      "elapsed_s": 7.498,
+      "tokens_per_sec": 138.7,
+      "cost": 0.005609,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 409,
+      "output_tokens": 950,
+      "total_tokens": 1359,
+      "elapsed_s": 6.569,
+      "tokens_per_sec": 144.6,
+      "cost": 0.005159,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 409,
+      "output_tokens": 1046,
+      "total_tokens": 1455,
+      "elapsed_s": 7.548,
+      "tokens_per_sec": 138.6,
+      "cost": 0.005639,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "data_cleaning__anthropic__two_step": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1314,
+      "output_tokens": 1702,
+      "total_tokens": 3016,
+      "elapsed_s": 11.813,
+      "tokens_per_sec": 144.1,
+      "cost": 0.009824,
+      "step1_total_tok": 1260,
+      "step2_total_tok": 1756,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1359,
+      "output_tokens": 1770,
+      "total_tokens": 3129,
+      "elapsed_s": 11.53,
+      "tokens_per_sec": 153.5,
+      "cost": 0.010209,
+      "step1_total_tok": 1305,
+      "step2_total_tok": 1824,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1283,
+      "output_tokens": 1423,
+      "total_tokens": 2706,
+      "elapsed_s": 10.912,
+      "tokens_per_sec": 130.4,
+      "cost": 0.008398,
+      "step1_total_tok": 1229,
+      "step2_total_tok": 1477,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1378,
+      "output_tokens": 1882,
+      "total_tokens": 3260,
+      "elapsed_s": 13.326,
+      "tokens_per_sec": 141.2,
+      "cost": 0.010787999999999999,
+      "step1_total_tok": 1324,
+      "step2_total_tok": 1936,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1342,
+      "output_tokens": 1765,
+      "total_tokens": 3107,
+      "elapsed_s": 11.461,
+      "tokens_per_sec": 154.0,
+      "cost": 0.010166999999999999,
+      "step1_total_tok": 1288,
+      "step2_total_tok": 1819,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ]
+}

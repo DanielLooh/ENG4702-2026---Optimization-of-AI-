@@ -1,0 +1,686 @@
+{
+  "weather_fetch__openai__basic": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 205,
+      "output_tokens": 314,
+      "total_tokens": 519,
+      "elapsed_s": 3.387,
+      "tokens_per_sec": 92.7,
+      "cost": 0.00156675,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 205,
+      "output_tokens": 298,
+      "total_tokens": 503,
+      "elapsed_s": 2.409,
+      "tokens_per_sec": 123.7,
+      "cost": 0.00149475,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 205,
+      "output_tokens": 315,
+      "total_tokens": 520,
+      "elapsed_s": 3.038,
+      "tokens_per_sec": 103.7,
+      "cost": 0.00157125,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 205,
+      "output_tokens": 305,
+      "total_tokens": 510,
+      "elapsed_s": 2.346,
+      "tokens_per_sec": 130.0,
+      "cost": 0.00152625,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 205,
+      "output_tokens": 333,
+      "total_tokens": 538,
+      "elapsed_s": 2.802,
+      "tokens_per_sec": 118.9,
+      "cost": 0.00165225,
+      "tests_passed": 2,
+      "tests_total": 3
+    }
+  ],
+  "weather_fetch__openai__efficiency": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 247,
+      "output_tokens": 372,
+      "total_tokens": 619,
+      "elapsed_s": 4.436,
+      "tokens_per_sec": 83.9,
+      "cost": 0.00185925,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 247,
+      "output_tokens": 383,
+      "total_tokens": 630,
+      "elapsed_s": 3.313,
+      "tokens_per_sec": 115.6,
+      "cost": 0.00190875,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 247,
+      "output_tokens": 433,
+      "total_tokens": 680,
+      "elapsed_s": 3.982,
+      "tokens_per_sec": 108.7,
+      "cost": 0.00213375,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 247,
+      "output_tokens": 402,
+      "total_tokens": 649,
+      "elapsed_s": 5.159,
+      "tokens_per_sec": 77.9,
+      "cost": 0.00199425,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 247,
+      "output_tokens": 363,
+      "total_tokens": 610,
+      "elapsed_s": 3.708,
+      "tokens_per_sec": 97.9,
+      "cost": 0.00181875,
+      "tests_passed": 2,
+      "tests_total": 3
+    }
+  ],
+  "weather_fetch__openai__two_step": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 588,
+      "output_tokens": 1098,
+      "total_tokens": 1686,
+      "elapsed_s": 7.547,
+      "tokens_per_sec": 145.5,
+      "cost": 0.005382,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 578,
+      "output_tokens": 1041,
+      "total_tokens": 1619,
+      "elapsed_s": 7.844,
+      "tokens_per_sec": 132.7,
+      "cost": 0.005118,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 590,
+      "output_tokens": 943,
+      "total_tokens": 1533,
+      "elapsed_s": 6.836,
+      "tokens_per_sec": 137.9,
+      "cost": 0.004686,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 561,
+      "output_tokens": 1068,
+      "total_tokens": 1629,
+      "elapsed_s": 7.804,
+      "tokens_per_sec": 136.9,
+      "cost": 0.00522675,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 585,
+      "output_tokens": 905,
+      "total_tokens": 1490,
+      "elapsed_s": 7.486,
+      "tokens_per_sec": 120.9,
+      "cost": 0.00451125,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "weather_fetch__anthropic__basic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 228,
+      "output_tokens": 1173,
+      "total_tokens": 1401,
+      "elapsed_s": 7.356,
+      "tokens_per_sec": 159.5,
+      "cost": 0.006093,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 228,
+      "output_tokens": 1084,
+      "total_tokens": 1312,
+      "elapsed_s": 6.78,
+      "tokens_per_sec": 159.9,
+      "cost": 0.005648,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 228,
+      "output_tokens": 1106,
+      "total_tokens": 1334,
+      "elapsed_s": 6.939,
+      "tokens_per_sec": 159.4,
+      "cost": 0.005758,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 228,
+      "output_tokens": 1052,
+      "total_tokens": 1280,
+      "elapsed_s": 6.758,
+      "tokens_per_sec": 155.7,
+      "cost": 0.005488,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 228,
+      "output_tokens": 1052,
+      "total_tokens": 1280,
+      "elapsed_s": 6.828,
+      "tokens_per_sec": 154.1,
+      "cost": 0.005488,
+      "tests_passed": 2,
+      "tests_total": 3
+    }
+  ],
+  "weather_fetch__anthropic__efficiency": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 273,
+      "output_tokens": 1195,
+      "total_tokens": 1468,
+      "elapsed_s": 8.802,
+      "tokens_per_sec": 135.8,
+      "cost": 0.006248,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 273,
+      "output_tokens": 1152,
+      "total_tokens": 1425,
+      "elapsed_s": 8.059,
+      "tokens_per_sec": 142.9,
+      "cost": 0.006033,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 273,
+      "output_tokens": 1146,
+      "total_tokens": 1419,
+      "elapsed_s": 8.012,
+      "tokens_per_sec": 143.0,
+      "cost": 0.006003,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 273,
+      "output_tokens": 1107,
+      "total_tokens": 1380,
+      "elapsed_s": 8.126,
+      "tokens_per_sec": 136.2,
+      "cost": 0.005808,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 273,
+      "output_tokens": 1111,
+      "total_tokens": 1384,
+      "elapsed_s": 7.669,
+      "tokens_per_sec": 144.9,
+      "cost": 0.005828,
+      "tests_passed": 2,
+      "tests_total": 3
+    }
+  ],
+  "weather_fetch__anthropic__two_step": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1490,
+      "output_tokens": 2844,
+      "total_tokens": 4334,
+      "elapsed_s": 17.711,
+      "tokens_per_sec": 160.6,
+      "cost": 0.015710000000000002,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1473,
+      "output_tokens": 2538,
+      "total_tokens": 4011,
+      "elapsed_s": 16.065,
+      "tokens_per_sec": 158.0,
+      "cost": 0.014163000000000002,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1473,
+      "output_tokens": 2524,
+      "total_tokens": 3997,
+      "elapsed_s": 16.068,
+      "tokens_per_sec": 157.1,
+      "cost": 0.014093000000000001,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1395,
+      "output_tokens": 2722,
+      "total_tokens": 4117,
+      "elapsed_s": 17.759,
+      "tokens_per_sec": 153.3,
+      "cost": 0.015005,
+      "tests_passed": 2,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1387,
+      "output_tokens": 2561,
+      "total_tokens": 3948,
+      "elapsed_s": 18.057,
+      "tokens_per_sec": 141.8,
+      "cost": 0.014192,
+      "tests_passed": 2,
+      "tests_total": 3
+    }
+  ],
+  "weather_compare__openai__basic": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 223,
+      "output_tokens": 367,
+      "total_tokens": 590,
+      "elapsed_s": 2.741,
+      "tokens_per_sec": 133.9,
+      "cost": 0.00181875,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 223,
+      "output_tokens": 392,
+      "total_tokens": 615,
+      "elapsed_s": 3.261,
+      "tokens_per_sec": 120.2,
+      "cost": 0.00193125,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 223,
+      "output_tokens": 376,
+      "total_tokens": 599,
+      "elapsed_s": 3.171,
+      "tokens_per_sec": 118.6,
+      "cost": 0.00185925,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 223,
+      "output_tokens": 357,
+      "total_tokens": 580,
+      "elapsed_s": 2.643,
+      "tokens_per_sec": 135.1,
+      "cost": 0.00177375,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 223,
+      "output_tokens": 368,
+      "total_tokens": 591,
+      "elapsed_s": 2.536,
+      "tokens_per_sec": 145.1,
+      "cost": 0.00182325,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "weather_compare__openai__efficiency": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 265,
+      "output_tokens": 523,
+      "total_tokens": 788,
+      "elapsed_s": 3.943,
+      "tokens_per_sec": 132.6,
+      "cost": 0.00255225,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 265,
+      "output_tokens": 515,
+      "total_tokens": 780,
+      "elapsed_s": 3.343,
+      "tokens_per_sec": 154.1,
+      "cost": 0.00251625,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 265,
+      "output_tokens": 501,
+      "total_tokens": 766,
+      "elapsed_s": 4.089,
+      "tokens_per_sec": 122.5,
+      "cost": 0.00245325,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 265,
+      "output_tokens": 541,
+      "total_tokens": 806,
+      "elapsed_s": 3.896,
+      "tokens_per_sec": 138.9,
+      "cost": 0.00263325,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 265,
+      "output_tokens": 543,
+      "total_tokens": 808,
+      "elapsed_s": 3.916,
+      "tokens_per_sec": 138.7,
+      "cost": 0.00264225,
+      "tests_passed": 3,
+      "tests_total": 3
+    }
+  ],
+  "weather_compare__openai__two_step": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 641,
+      "output_tokens": 916,
+      "total_tokens": 1557,
+      "elapsed_s": 6.588,
+      "tokens_per_sec": 139.0,
+      "cost": 0.00460275,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 663,
+      "output_tokens": 928,
+      "total_tokens": 1591,
+      "elapsed_s": 6.741,
+      "tokens_per_sec": 137.7,
+      "cost": 0.00467325,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 656,
+      "output_tokens": 969,
+      "total_tokens": 1625,
+      "elapsed_s": 11.986,
+      "tokens_per_sec": 80.8,
+      "cost": 0.0048525,
+      "tests_passed": 0,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 656,
+      "output_tokens": 1027,
+      "total_tokens": 1683,
+      "elapsed_s": 12.04,
+      "tokens_per_sec": 85.3,
+      "cost": 0.0051135,
+      "tests_passed": 0,
+      "tests_total": 3
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "input_tokens": 639,
+      "output_tokens": 911,
+      "total_tokens": 1550,
+      "elapsed_s": 6.252,
+      "tokens_per_sec": 145.7,
+      "cost": 0.0045787499999999995,
+      "tests_passed": 1,
+      "tests_total": 3
+    }
+  ],
+  "weather_compare__anthropic__basic": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 250,
+      "output_tokens": 1157,
+      "total_tokens": 1407,
+      "elapsed_s": 6.394,
+      "tokens_per_sec": 181.0,
+      "cost": 0.006035,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 250,
+      "output_tokens": 1156,
+      "total_tokens": 1406,
+      "elapsed_s": 6.824,
+      "tokens_per_sec": 169.4,
+      "cost": 0.00603,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 250,
+      "output_tokens": 1148,
+      "total_tokens": 1398,
+      "elapsed_s": 6.863,
+      "tokens_per_sec": 167.3,
+      "cost": 0.00599,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 250,
+      "output_tokens": 1149,
+      "total_tokens": 1399,
+      "elapsed_s": 6.315,
+      "tokens_per_sec": 181.9,
+      "cost": 0.005995,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 250,
+      "output_tokens": 1137,
+      "total_tokens": 1387,
+      "elapsed_s": 6.443,
+      "tokens_per_sec": 176.5,
+      "cost": 0.005935,
+      "tests_passed": 1,
+      "tests_total": 3
+    }
+  ],
+  "weather_compare__anthropic__efficiency": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 295,
+      "output_tokens": 1421,
+      "total_tokens": 1716,
+      "elapsed_s": 10.688,
+      "tokens_per_sec": 133.0,
+      "cost": 0.0074,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 295,
+      "output_tokens": 1174,
+      "total_tokens": 1469,
+      "elapsed_s": 8.525,
+      "tokens_per_sec": 137.7,
+      "cost": 0.006165,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 295,
+      "output_tokens": 1174,
+      "total_tokens": 1469,
+      "elapsed_s": 9.535,
+      "tokens_per_sec": 123.1,
+      "cost": 0.006165,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 295,
+      "output_tokens": 1197,
+      "total_tokens": 1492,
+      "elapsed_s": 8.483,
+      "tokens_per_sec": 141.1,
+      "cost": 0.00628,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 295,
+      "output_tokens": 1174,
+      "total_tokens": 1469,
+      "elapsed_s": 8.483,
+      "tokens_per_sec": 138.4,
+      "cost": 0.006165,
+      "tests_passed": 1,
+      "tests_total": 3
+    }
+  ],
+  "weather_compare__anthropic__two_step": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1479,
+      "output_tokens": 2749,
+      "total_tokens": 4228,
+      "elapsed_s": 15.935,
+      "tokens_per_sec": 172.5,
+      "cost": 0.015224,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1443,
+      "output_tokens": 2823,
+      "total_tokens": 4266,
+      "elapsed_s": 19.5,
+      "tokens_per_sec": 144.8,
+      "cost": 0.015557999999999999,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1376,
+      "output_tokens": 2550,
+      "total_tokens": 3926,
+      "elapsed_s": 15.315,
+      "tokens_per_sec": 166.5,
+      "cost": 0.014126,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1548,
+      "output_tokens": 3042,
+      "total_tokens": 4590,
+      "elapsed_s": 18.384,
+      "tokens_per_sec": 165.5,
+      "cost": 0.016758000000000002,
+      "tests_passed": 1,
+      "tests_total": 3
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1480,
+      "output_tokens": 2791,
+      "total_tokens": 4271,
+      "elapsed_s": 15.725,
+      "tokens_per_sec": 177.5,
+      "cost": 0.015435,
+      "tests_passed": 1,
+      "tests_total": 3
+    }
+  ]
+}
