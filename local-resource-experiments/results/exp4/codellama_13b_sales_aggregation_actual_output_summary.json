@@ -1,0 +1,20 @@
+{
+  "experiment": "Experiment 4 - CPU Core Utilisation Analysis",
+  "timestamp_utc": "2026-09-29T06:23:26.683641+00:00",
+  "label": "codellama_13b_sales_aggregation_actual_output",
+  "command": [
+    ".venv/bin/python",
+    "run_sales_workload.py",
+    "generated/codellama_13b_sales_solution.py"
+  ],
+  "available_cpu_cores": 8,
+  "avg_cores_utilised": 1.17,
+  "peak_cores_utilised": 2,
+  "avg_cpu_usage_percent": 79.42,
+  "peak_cpu_usage_percent": 101.66,
+  "multi_core_utilisation": false,
+  "execution_time_s": 1.287,
+  "core_threshold_percent": 5.0,
+  "sample_csv": "results/exp4/codellama_13b_sales_aggregation_actual_output_samples.csv",
+  "interpretation_note": "A core is counted when the runner's CPU use reaches the stated threshold. CPU use is calculated from process CPU seconds, so 100% is approximately one occupied logical core. Compare only trials run on an otherwise idle machine."
+}

@@ -1,0 +1,150 @@
+{
+  "source_archive": "full-research-paper-reproduction-package.zip",
+  "note": "Selected files preserved byte-for-byte from the supplied archive. README and manifest were added for publication.",
+  "files": [
+    {
+      "path": "exp5_memory_footprint.py",
+      "sha256": "824f2328d5bf183fbd325e666c418e773925388f5add61af45c8649862df2f0d"
+    },
+    {
+      "path": "generate_sales_solutions.py",
+      "sha256": "3d76bea13bada9e17d1b60f5e4df8d751b0d96169fb823cfcff504909803f660"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "e2e72e89a7eb9897102d40f14e22d60337b3a2476c5bc30cf1eaf4751743c9fe"
+    },
+    {
+      "path": "run_sales_workload.py",
+      "sha256": "f401677846ff1d36db0606727cc7bef90b6d229c84a0ed77088c26c044d38f83"
+    },
+    {
+      "path": "common.py",
+      "sha256": "4ba7857c7b7ccc304655b0348e7b9b0d0bb4fbad2e6f730e83fbfb4e5f850d3f"
+    },
+    {
+      "path": "exp1_resource_monitor.py",
+      "sha256": "e98edf753cd2a2acc75b3d7be94e488efc423045f020ea4bf70f17a827222507"
+    },
+    {
+      "path": "exp4_cpu_core_utilisation.py",
+      "sha256": "0a1f2b966a6bc479b6c13323b18f6b09cbbf986f43b4fbd1d80ee88e1b82d515"
+    },
+    {
+      "path": "generated/codellama_13b_sales_raw.json",
+      "sha256": "1ddceb1897956192fcd6448f2a15afc6d358ead8c359dd75ff17682fd84d93d2"
+    },
+    {
+      "path": "generated/codellama_13b_sales_validation.json",
+      "sha256": "e7c6e86bfbc5f460d6000060e029cead3991908be306316c5c5eb47762dc704e"
+    },
+    {
+      "path": "generated/qwen2.5-coder_7b_sales_solution.py",
+      "sha256": "8e529b2cd166533e1499d99ebe5c8dcb043e0864f107bed6dc958591cc31a2fd"
+    },
+    {
+      "path": "generated/deepseek-coder-v2_16b_sales_validation.json",
+      "sha256": "c88d738de04d17102f7ecd6ab50d16523e7dc765ad2055333c1b47cba109d6fd"
+    },
+    {
+      "path": "generated/deepseek-coder-v2_16b_sales_solution.py",
+      "sha256": "ae6724987685c5cb047a9fb54d2df3010aa4995bc5ab3a7187e3c294baac9d29"
+    },
+    {
+      "path": "generated/codellama_13b_sales_solution.py",
+      "sha256": "5043df6b00ebfa0e1b59aa7ecff4c3a421c771b52eeec0290337813c3f340103"
+    },
+    {
+      "path": "generated/deepseek-coder-v2_16b_sales_raw.json",
+      "sha256": "42cef31da99bc3a921e1927ea2868ea8cbd8e50ea0ad37cc7a394dc4d324bcfd"
+    },
+    {
+      "path": "generated/codellama_13b_sales_solution_v2.py",
+      "sha256": "5043df6b00ebfa0e1b59aa7ecff4c3a421c771b52eeec0290337813c3f340103"
+    },
+    {
+      "path": "generated/qwen2.5-coder_7b_sales_raw.json",
+      "sha256": "6da0b5c51e36c1ed96512cbe972c9a2102a59460798e2419d913507ea794a4a0"
+    },
+    {
+      "path": "generated/qwen2.5-coder_7b_sales_validation.json",
+      "sha256": "2e2d1325a73f1d4e550dd851e8b23539fb601c3ec3a8b94c9e8b7d44cda27577"
+    },
+    {
+      "path": "generated/codellama_13b_sales_raw_v2.json",
+      "sha256": "a8e0bded9ed19bb6e1a901e9cbe2237b362c1b2a5a832f0702843a6087441ebd"
+    },
+    {
+      "path": "results/exp1_gpu/qwen2.5-coder_7b_samples.csv",
+      "sha256": "ed174d1e765c93fc9725d200b9b58d0d151ac4a61dda0f1db510ea4c99780622"
+    },
+    {
+      "path": "results/exp1_gpu/codellama_13b_summary.json",
+      "sha256": "aa6ee29d94e1a64c0f2e853591b6d403126cb055a7d1e9d5ec8172a35cd4a5a9"
+    },
+    {
+      "path": "results/exp1_gpu/codellama_13b_samples.csv",
+      "sha256": "50d17eab38540b66fec8ceb7913942c09184ebd79b0aa514c30a406f5753b1f0"
+    },
+    {
+      "path": "results/exp1_gpu/deepseek-coder-v2_16b_samples.csv",
+      "sha256": "bd02c1336df4a1d7a71a0b6d08b213e3e86595863f656a4b7cd4c375ed98a2da"
+    },
+    {
+      "path": "results/exp1_gpu/qwen2.5-coder_7b_summary.json",
+      "sha256": "67229331e170e545c2f1bbbba8824494f9a47dd9a52262dd9ae0eef56304c4f4"
+    },
+    {
+      "path": "results/exp1_gpu/deepseek-coder-v2_16b_summary.json",
+      "sha256": "eb6f030c56be28b95d1800da8f9b1a5ca5070696a65819e0d6e444dc6ab42210"
+    },
+    {
+      "path": "results/exp4/deepseek-coder-v2_16b_sales_aggregation_nonempty_samples.csv",
+      "sha256": "bbfb883afb7ecf053d1ad5c6cfce14e46b6350513116836eab411dfb93363907"
+    },
+    {
+      "path": "results/exp4/codellama_13b_sales_aggregation_actual_output_summary.json",
+      "sha256": "e87dab2a8939e0d4ff529f2654b756e0cb1335f2a76e4bf5052599b8afa0a338"
+    },
+    {
+      "path": "results/exp4/qwen2.5-coder_7b_sales_aggregation_nonempty_summary.json",
+      "sha256": "6d862466b8f653ea989e79b0fa9f58b7e54021aa4dff102fe2b14de681912cea"
+    },
+    {
+      "path": "results/exp4/deepseek-coder-v2_16b_sales_aggregation_nonempty_summary.json",
+      "sha256": "853d6f4fa59bbcc6b8f8ad760e867e45a531d371fdb4b4f68f3ad0e7901a3e64"
+    },
+    {
+      "path": "results/exp4/qwen2.5-coder_7b_sales_aggregation_nonempty_samples.csv",
+      "sha256": "3f89a17fec5023c6e74a3b755ccaebcde3bb9ceb2eb3ea4983ff678545984cc4"
+    },
+    {
+      "path": "results/exp4/codellama_13b_sales_aggregation_actual_output_samples.csv",
+      "sha256": "d6322bc8e2e29a18e5458b6c2feac660fb862492d64fd1620b7e06845c2bbeea"
+    },
+    {
+      "path": "results/exp5/qwen2.5-coder_7b_samples.csv",
+      "sha256": "2ae31e09504e57bbb809e599a42f7d40b6a38f7e0709827a0cda97dacef4eac7"
+    },
+    {
+      "path": "results/exp5/codellama_13b_summary.json",
+      "sha256": "fea2ff5dae4db3d16824fb9d15660f6aaa0a20cbeb5178871ad3ba6b339cfcf0"
+    },
+    {
+      "path": "results/exp5/codellama_13b_samples.csv",
+      "sha256": "5663cb77ddf65bfad6ad2fe61189c15b350cc1646d4622ccd593676852a383d9"
+    },
+    {
+      "path": "results/exp5/deepseek-coder-v2_16b_samples.csv",
+      "sha256": "5db7b11e1232709aa29ae13eac376a33c9189a9d64b471f3d2f6c8db328c12a0"
+    },
+    {
+      "path": "results/exp5/qwen2.5-coder_7b_summary.json",
+      "sha256": "7f1823c4d419b61f29ae49438335813b48179f50ec79aeba404cf3bf1df30545"
+    },
+    {
+      "path": "results/exp5/deepseek-coder-v2_16b_summary.json",
+      "sha256": "38dc56ae8f199a061e1a515f730ef09ba3c46f0464059bea76b5f902d7c8793a"
+    }
+  ]
+}
