@@ -1,0 +1,25 @@
+{
+  "experiment": "Experiment 1 - Real-Time Resource Utilisation Monitoring",
+  "timestamp_utc": "2026-09-29T06:17:15.080389+00:00",
+  "model": "deepseek-coder-v2:16b",
+  "sample_interval_s": 0.5,
+  "prompt": "fixed basic Two Sum prompt",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 256,
+    "num_ctx": 2048
+  },
+  "avg_cpu_percent": 22.95,
+  "peak_cpu_percent": 56.9,
+  "avg_memory_mb": 7530.16,
+  "peak_memory_mb": 8968.89,
+  "generation_time_s": 37.997,
+  "avg_gpu_usage_percent": 65.8,
+  "peak_gpu_usage_percent": 98.0,
+  "peak_gpu_memory_mb": 10330.14,
+  "gpu_note": "System-level Apple GPU telemetry from IOKit. GPU memory is unified system memory in use by the GPU driver, not per-process VRAM.",
+  "ollama_eval_count": 246,
+  "ollama_eval_duration_s": 30.408,
+  "sample_csv": "results/exp1_gpu/deepseek-coder-v2_16b_samples.csv"
+}

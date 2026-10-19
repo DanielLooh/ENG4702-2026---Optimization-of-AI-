@@ -1,0 +1,9 @@
+{
+  "model": "codellama:13b",
+  "prompt": "You are an expert software engineer. Provide Python code only, with no Markdown fences or explanation.\n\nWrite a function exactly named aggregate_sales(records). records is a list of tuples: (product: str, region: str, revenue: float). Return a dictionary with exactly these keys: total_revenue, top_product, top_region. total_revenue is the sum of all revenue. top_product is the product with the greatest total revenue across all regions; top_region is the region with the greatest total revenue across all products. Resolve ties lexicographically. Use one pass where possible and standard library only.",
+  "raw_response": "generated/codellama_13b_sales_raw.json",
+  "solution": "generated/codellama_13b_sales_solution.py",
+  "valid": false,
+  "validation_stdout": "",
+  "validation_stderr": "Traceback (most recent call last):\n  File \"<string>\", line 6, in <module>\n    assert m.aggregate_sales([(\"A\",\"X\",3.0),(\"A\",\"Y\",4.0),(\"B\",\"X\",6.0)]) == {\"total_revenue\":13.0,\"top_product\":\"A\",\"top_region\":\"X\"}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

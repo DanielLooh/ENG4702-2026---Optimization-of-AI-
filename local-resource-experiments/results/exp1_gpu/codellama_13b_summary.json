@@ -1,0 +1,25 @@
+{
+  "experiment": "Experiment 1 - Real-Time Resource Utilisation Monitoring",
+  "timestamp_utc": "2026-09-29T06:18:31.069726+00:00",
+  "model": "codellama:13b",
+  "sample_interval_s": 0.5,
+  "prompt": "fixed basic Two Sum prompt",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 256,
+    "num_ctx": 2048
+  },
+  "avg_cpu_percent": 14.54,
+  "peak_cpu_percent": 35.8,
+  "avg_memory_mb": 7869.89,
+  "peak_memory_mb": 8519.27,
+  "generation_time_s": 75.07,
+  "avg_gpu_usage_percent": 86.72,
+  "peak_gpu_usage_percent": 100.0,
+  "peak_gpu_memory_mb": 10043.16,
+  "gpu_note": "System-level Apple GPU telemetry from IOKit. GPU memory is unified system memory in use by the GPU driver, not per-process VRAM.",
+  "ollama_eval_count": 256,
+  "ollama_eval_duration_s": 64.856,
+  "sample_csv": "results/exp1_gpu/codellama_13b_samples.csv"
+}

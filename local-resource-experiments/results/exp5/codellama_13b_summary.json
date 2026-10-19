@@ -1,0 +1,21 @@
+{
+  "experiment": "Experiment 5 - Model Size vs. Memory Footprint",
+  "timestamp_utc": "2026-09-28T17:53:26.930349+00:00",
+  "model": "codellama:13b",
+  "sample_interval_s": 0.5,
+  "idle_sample_seconds": 10,
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 256,
+    "num_ctx": 2048
+  },
+  "idle_memory_mb": 8829.68,
+  "avg_memory_during_generation_mb": 8830.61,
+  "peak_memory_during_generation_mb": 8830.88,
+  "memory_increase_mb": 1.19,
+  "generation_time_s": 23.332,
+  "ollama_eval_count": 256,
+  "measurement_note": "RSS is the sum of the Ollama server and its loaded runner process. On Apple Silicon it is unified memory, not separate VRAM.",
+  "sample_csv": "results/exp5/codellama_13b_samples.csv"
+}

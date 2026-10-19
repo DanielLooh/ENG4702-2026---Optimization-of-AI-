@@ -1,0 +1,25 @@
+{
+  "experiment": "Experiment 1 - Real-Time Resource Utilisation Monitoring",
+  "timestamp_utc": "2026-09-29T06:16:36.493824+00:00",
+  "model": "qwen2.5-coder:7b",
+  "sample_interval_s": 0.5,
+  "prompt": "fixed basic Two Sum prompt",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 256,
+    "num_ctx": 2048
+  },
+  "avg_cpu_percent": 19.4,
+  "peak_cpu_percent": 69.8,
+  "avg_memory_mb": 6247.32,
+  "peak_memory_mb": 8645.58,
+  "generation_time_s": 47.427,
+  "avg_gpu_usage_percent": 83.08,
+  "peak_gpu_usage_percent": 100.0,
+  "peak_gpu_memory_mb": 9858.36,
+  "gpu_note": "System-level Apple GPU telemetry from IOKit. GPU memory is unified system memory in use by the GPU driver, not per-process VRAM.",
+  "ollama_eval_count": 194,
+  "ollama_eval_duration_s": 20.582,
+  "sample_csv": "results/exp1_gpu/qwen2.5-coder_7b_samples.csv"
+}

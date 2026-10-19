@@ -1,0 +1,20 @@
+{
+  "experiment": "Experiment 4 - CPU Core Utilisation Analysis",
+  "timestamp_utc": "2026-09-28T17:52:20.749364+00:00",
+  "label": "qwen2.5-coder_7b_sales_aggregation_nonempty",
+  "command": [
+    ".venv/bin/python",
+    "run_sales_workload.py",
+    "generated/qwen2.5-coder_7b_sales_solution.py"
+  ],
+  "available_cpu_cores": 8,
+  "avg_cores_utilised": 0.86,
+  "peak_cores_utilised": 1,
+  "avg_cpu_usage_percent": 82.96,
+  "peak_cpu_usage_percent": 99.71,
+  "multi_core_utilisation": false,
+  "execution_time_s": 1.502,
+  "core_threshold_percent": 5.0,
+  "sample_csv": "results/exp4/qwen2.5-coder_7b_sales_aggregation_nonempty_samples.csv",
+  "interpretation_note": "A core is counted when the runner's CPU use reaches the stated threshold. CPU use is calculated from process CPU seconds, so 100% is approximately one occupied logical core. Compare only trials run on an otherwise idle machine."
+}
