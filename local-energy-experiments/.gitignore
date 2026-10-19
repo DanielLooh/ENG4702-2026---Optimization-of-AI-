@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+results/
+*.json
+*.log
+powermetrics_log.txt
